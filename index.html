@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  
+  <body>
+    <div class="owl-carousel">
+      <div><img src="dream_catcher.png" /></div>
+      <div><img src="game_boardgame.png" /></div>
+      <div><img src="game_syougi_ban.png" /></div>
+      <div><img src="tourou_touki_kamatourou.png" /></div>
+      <div><img src="toy_game_saikoro_tamen.png" /></div>
+    </div>
+  </body>
+  
+  <footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplaySpeed: 1000,
+          autoWidth: true
+        });
+      });
+    </script>
+  </footer>
+</html>
